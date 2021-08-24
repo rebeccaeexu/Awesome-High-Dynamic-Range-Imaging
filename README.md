@@ -27,15 +27,16 @@ A collection of HDR imaging papers.
   
 
 * **_HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions_** <br>
-  `TIP 2021` | [`paper`](https://arxiv.org/abs/2007.01628)
+  `TIP 2021` | [`paper`](https://arxiv.org/abs/2007.01628) | [`code`](https://github.com/nonu116/HDR-GAN)
 
 ### Deep Single Image HDR Reconstruction
 
 * 
 
 ### Challenges
-
 * [[CVPR 2021 Workshop]](https://arxiv.org/abs/2106.01439)
+* **_ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging_** <br>
+  `CVPRW 2021` | [`paper`](https://arxiv.org/pdf/2105.10697.pdf) | [`code`](https://github.com/liuzhen03/ADNet)
 
 ### Dataset
 
