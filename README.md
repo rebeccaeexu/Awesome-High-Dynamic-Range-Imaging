@@ -22,7 +22,7 @@ A collection of HDR imaging papers.
 * **_Deep HDR Imaging via A Non-Local Network_** <br>
   `TIP 2020` | [`paper`](https://ieeexplore.ieee.org/abstract/document/8989959) | [`code`](https://github.com/tuvovan/NHDRRNet)
 
-* **Ghost removal via channel attention in exposure fusion**
+* **_Ghost removal via channel attention in exposure fusion**
 
   
 
@@ -31,7 +31,8 @@ A collection of HDR imaging papers.
 
 ### Deep Single Image HDR Reconstruction
 
-* 
+* **_Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss_** <br>
+  `SIGGRAPH 2020` | [`paper`](https://arxiv.org/abs/2005.07335) | [`code`](https://github.com/marcelsan/Deep-HdrReconstruction)
 
 ### Challenges
 * [[CVPR 2021 Workshop]](https://arxiv.org/abs/2106.01439)
