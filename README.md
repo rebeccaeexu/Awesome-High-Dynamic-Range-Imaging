@@ -34,6 +34,12 @@ A collection of HDR imaging papers.
 * **_Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss_** <br>
   `SIGGRAPH 2020` | [`paper`](https://arxiv.org/abs/2005.07335) | [`code`](https://github.com/marcelsan/Deep-HdrReconstruction)
 
+
+### Deep HDR Video
+* **_HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset_** <br>
+  `ICCV 2021` | [`paper`](https://arxiv.org/abs/2103.14943) | [`code`](https://github.com/guanyingc/DeepHDRVideo) | [`Project`](https://guanyingc.github.io/DeepHDRVideo/)
+
+
 ### Challenges
 * [[CVPR 2021 Workshop]](https://arxiv.org/abs/2106.01439)
 * **_ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging_** <br>
