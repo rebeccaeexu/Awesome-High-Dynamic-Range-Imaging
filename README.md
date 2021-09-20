@@ -13,7 +13,7 @@ A collection of HDR imaging papers.
 * **_Deep High Dynamic Range Imaging with Large Foreground Motions_**  <br>
   `ECCV 2018` | [`paper`](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf) | [`code`](https://github.com/elliottwu/DeepHDR) | [`Project`](https://elliottwu.com/projects/hdr/) 
 
-* **Deep HDR Reconstruction of Dynamic Scenes**
+* **Deep HDR Reconstruction of Dynamic Scenes** <br>
   `ICIVC 2018` | [`paper`](https://ieeexplore.ieee.org/abstract/document/8492856)
 
 * **_Multi-scale Dense Networks for Deep High Dynamic Range Imaging_** <br>
@@ -22,19 +22,16 @@ A collection of HDR imaging papers.
 * **_Attention-guided Network for Ghost-free High Dynamic Range Imaging_** <br>
   `CVPR 2019` | [`paper`](https://arxiv.org/abs/1904.10293) | [`code`](https://github.com/qingsenyangit/AHDRNet) | [`Project`](https://donggong1.github.io/ahdr.html)
 
-* **Kernel Prediction Network for Detail-Preserving High Dynamic Range Imaging**
-
+* **Kernel Prediction Network for Detail-Preserving High Dynamic Range Imaging** <br>
   `APSIPA ASC 2019` | [`paper`](https://ieeexplore.ieee.org/document/9023217)
 
 * **_Deep HDR Imaging via A Non-Local Network_** <br>
   `TIP 2020` | [`paper`](https://ieeexplore.ieee.org/abstract/document/8989959) | [`code`](https://github.com/tuvovan/NHDRRNet)
 
-* **Ghost Removal via Channel Attention in Exposure Fusion**
-
+* **Ghost Removal via Channel Attention in Exposure Fusion**  <br>
   `CVIU 2020` | [`paper`](https://www.sciencedirect.com/science/article/pii/S1077314220301132)
 
-* **Attention-Mask Dense Merger (Attendense) Deep HDR for Ghost Removal**
-
+* **Attention-Mask Dense Merger (Attendense) Deep HDR for Ghost Removal**  <br>
   `ICASSP 2020` | [`paper`](https://ieeexplore.ieee.org/abstract/document/9053180)
 
 * **_HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions_** <br>
@@ -75,5 +72,5 @@ A collection of HDR imaging papers.
 
 
 
-ref:
+Ref:
 https://github.com/vinthony/awesome-deep-hdr
