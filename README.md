@@ -67,6 +67,8 @@ A collection of HDR imaging papers.
 ### Dataset
 
 * [[Kalantari Dataset in SIGGRAPH17]](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
+* [[Sen Dataset in TOG12]](https://web.ece.ucsb.edu/~psen/hdrvideo)
+* [[Tursun Dataset in EUROGRAPHICS16]](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html)
 * [[NTIRE 2021 High Dynamic Range Challenge (Track 1 Single Frame)]](https://competitions.codalab.org/competitions/28161#participate-get-data)
 * [[NTIRE 2021 High Dynamic Range Challenge (Track 2 Multi Frame)]](https://competitions.codalab.org/competitions/28162)
 
