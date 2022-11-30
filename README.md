@@ -1,79 +1,104 @@
-# HDR imaging paperlist
+# Paper List | Deep High Dynamic Range Imaging
 
-A collection of HDR imaging papers.
-
-(Updating...)
-
-
-### Deep Multi-frame HDR Imaging
-
-* **_Deep high dynamic range imaging of dynamic scenes._** <br>
-  `SIGGRAPH Asia 2017` | [`Paper`](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR.pdf) | [`Project`](http://viscomp.ucsd.edu/projects/SIG17HDR/) | [`Code::matlab (Official)`](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR_Code_v1.0.zip) | [`Code::TensorFlow`](https://github.com/TH3CHARLie/deep-high-dynamic-range)<br>
-
-* **_Deep High Dynamic Range Imaging with Large Foreground Motions_**  <br>
-  `ECCV 2018` | [`paper`](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf) | [`code`](https://github.com/elliottwu/DeepHDR) | [`Project`](https://elliottwu.com/projects/hdr/) 
-
-* **Deep HDR Reconstruction of Dynamic Scenes** <br>
-  `ICIVC 2018` | [`paper`](https://ieeexplore.ieee.org/abstract/document/8492856)
-
-* **_Multi-scale Dense Networks for Deep High Dynamic Range Imaging_** <br>
-  `WACV 2019`  | [`Paper`](https://ieeexplore.ieee.org/document/8658831)
-
-* **_Attention-guided Network for Ghost-free High Dynamic Range Imaging_** <br>
-  `CVPR 2019` | [`paper`](https://arxiv.org/abs/1904.10293) | [`code`](https://github.com/qingsenyangit/AHDRNet) | [`Project`](https://donggong1.github.io/ahdr.html)
-
-* **Kernel Prediction Network for Detail-Preserving High Dynamic Range Imaging** <br>
-  `APSIPA ASC 2019` | [`paper`](https://ieeexplore.ieee.org/document/9023217)
-
-* **_Deep HDR Imaging via A Non-Local Network_** <br>
-  `TIP 2020` | [`paper`](https://ieeexplore.ieee.org/abstract/document/8989959) | [`code`](https://github.com/tuvovan/NHDRRNet)
-
-* **Ghost Removal via Channel Attention in Exposure Fusion**  <br>
-  `CVIU 2020` | [`paper`](https://www.sciencedirect.com/science/article/pii/S1077314220301132)
-
-* **Attention-Mask Dense Merger (Attendense) Deep HDR for Ghost Removal**  <br>
-  `ICASSP 2020` | [`paper`](https://ieeexplore.ieee.org/abstract/document/9053180)
-
-* **_HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions_** <br>
-  `TIP 2021` | [`paper`](https://arxiv.org/abs/2007.01628) | [`code`](https://github.com/nonu116/HDR-GAN)
-
-### Deep Single Image HDR Reconstruction
-
-* **_Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss_** <br>
-  `SIGGRAPH 2020` | [`paper`](https://arxiv.org/abs/2005.07335) | [`code`](https://github.com/marcelsan/Deep-HdrReconstruction)
-
-### Traditional Multi-frame HDR Imaging
-
-* **_Robust patch-based HDR reconstruction of dynamic scenes_** <br>
-  `TOG 2012` | [`paper`](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [`Project`](https://web.ece.ucsb.edu/~psen/hdrvideo)
-
-* **_HDR Deghosting: How to deal with saturation?_** <br>
-  `CVPR 2013` | [`paper`](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.7215&rep=rep1&type=pdf) 
-* **_Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss_** <br>
-  `TPAMI 2015 | [`paper`](https://joonyoung-cv.github.io/assets/paper/15_pami_robust_high.pdf) 
-
-### Deep HDR Video
-
-* **_HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset_** <br>
-  `ICCV 2021` | [`paper`](https://arxiv.org/abs/2103.14943) | [`code`](https://github.com/guanyingc/DeepHDRVideo) | [`Project`](https://guanyingc.github.io/DeepHDRVideo/)
-
-
-### Challenges
-
-* [[CVPR 2021 Workshop]](https://arxiv.org/abs/2106.01439)
-* **_ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging_** <br>
-  `CVPRW 2021` | [`paper`](https://arxiv.org/pdf/2105.10697.pdf) | [`code`](https://github.com/liuzhen03/ADNet)
-
-### Dataset
-
-* [[Kalantari Dataset in SIGGRAPH17]](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
-* [[Sen Dataset in TOG12]](https://web.ece.ucsb.edu/~psen/hdrvideo)
-* [[Tursun Dataset in EUROGRAPHICS16]](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html)
-* [[NTIRE 2021 High Dynamic Range Challenge (Track 1 Single Frame)]](https://competitions.codalab.org/competitions/28161#participate-get-data)
-* [[NTIRE 2021 High Dynamic Range Challenge (Track 2 Multi Frame)]](https://competitions.codalab.org/competitions/28162)
-* [[MIT-Adobe FiveK Dataset]](https://data.csail.mit.edu/graphics/fivek/)
+A collection of HDR imaging papers. (Updating)
 
 
 
-Ref:
-https://github.com/vinthony/awesome-deep-hdr
+[toc]
+
+
+## Multi-Frame HDRI
+
+| Title                                                                                                              | Paper                                                                                                                                                                                                                                | Code                                                                                                                                                                                                                        | Dataset                | Key Words |
+|:-------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------|:-|
+| **Ghost-free High Dynamic Range Imaging with Context-aware Transformer**                                           | [ECCV-2022](https://arxiv.org/pdf/2208.05114)                                                                                                                                                                                        | [HDR-Transformer](https://github.com/megvii-research/HDR-Transformer)                                                                                                                                                       | Kalantari              | Context-Aware Transformer |
+| A Lightweight Network for High Dynamic Range Imaging                                                               | [CVPRW-2022](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Yan_A_Lightweight_Network_for_High_Dynamic_Range_Imaging_CVPRW_2022_paper.pdf)                                                                             |                                                                                                                                                                                                                             | NTIRE                  | Two branch, Lightweight |
+| Gamma-Enhanced Spatial Attention Network for Efficient High Dynamic Range Imaging                                  | [CVPR-2022](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_Gamma-Enhanced_Spatial_Attention_Network_for_Efficient_High_Dynamic_Range_Imaging_CVPRW_2022_paper.pdf)                                                  |                                                                                                                                                                                                                             | NTIRE                  | gamma-corrected |
+| Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration                        | [TIP-2022](https://arxiv.org/pdf/2107.06211.pdf)                                                                                                                                                                                     |                                                                                                                                                                                                                             | Kalnatari              | Two stream, Neural Feature Transfer |
+| Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging                                            | [IJCV-2022](https://link.springer.com/article/10.1007/s11263-021-01535-y)                                                                                                                                                            |                                                                                                                                                                                                                             | Kalantari              |  |
+| High Dynamic Range Imaging of Dynamic Scenes with Saturation Compensation but without Explicit Motion Compensation | [WACV-2022](https://openaccess.thecvf.com/content/WACV2022/supplemental/Chung_High_Dynamic_Range_WACV_2022_supplemental.pdf)                                                                                                         | [hdri-saturation-compensation](https://github.com/haesoochung/hdri-saturation-compensation)                                                                                                                                 | Kalantari              | Brightness adjustment, Saturation mask |
+| Drbr-Hdr: Dual-Branch Recursive Band Reconstruction Network for Hdr with Large Motions                             | [SSRN-2022](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147499)                                                                                                                                                             |                                                                                                                                                                                                                             | Kalantari              | Dual branch |
+| Learning Regularized Multi-Scale Feature Flow for High Dynamic Range Imaging                                       | [arxiv-2022](https://arxiv.org/pdf/2207.02539.pdf)                                                                                                                                                                                   |                                                                                                                                                                                                                             | Kalantari              | Multi-scale, Flow |
+| High Dynamic Range Imaging via Gradient-aware Context Aggregation Network                                          | [PR-2022](https://www.sciencedirect.com/science/article/pii/S0031320321005227)                                                                                                                                                       |                                                                                                                                                                                                                             | Kalantari              | Gradient information |
+| Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting                                 | [CVPR-2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf)                                                              | [FSHDR](https://github.com/Susmit-A/FSHDR)                                                                                                                                                                                  | Kalantari              | Few shot |
+| **HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions**                             | [TIP-2021](https://arxiv.org/abs/2007.01628)                                                                                                                                                                                         | [HDR-GAN](https://github.com/nonu116/HDR-GAN)                                                                                                                                                                               | Kalantari              | GAN |
+| Ghost-Free Deep High-Dynamic-Range Imaging Using Focus Pixels for Complex Motion Scenes                            | [TIP-2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429936)                                                                                                                                                         |                                                                                                                                                                                                                             | own real-world dataset | Utilize focus pixel image |
+| Self-Gated Memory Recurrent Network for Efficient Scalable HDR Deghosting                                          | [TCI-2021](https://ieeexplore.ieee.org/document/9540317)                                                                                                                                                                             | [HDRRNN](https://github.com/Susmit-A/HDRRNN)                                                                                                                                                                                | Kalantari + Prabhakar  | Recurrent |
+| ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging                            | [CVPRW-2021](https://arxiv.org/pdf/2105.10697.pdf)                                                                                                                                                                                   | [ADNet](https://github.com/liuzhen03/ADNet)                                                                                                                                                                                 | NTIRE                  | PCD |
+| Progressive and Selective Fusion Network for High Dynamic Range Imaging                                            | [MM-2021](https://arxiv.org/pdf/2108.08585.pdf)                                                                                                                                                                                      |                                                                                                                                                                                                                             | Kalantari              | Progressive fusion |
+| Merging-ISP: Multi-Exposure High Dynamic Range Image Signal Processing                                             | [GCPR-2021](https://link.springer.com/chapter/10.1007/978-3-030-92659-5_21)                                                                                                                                                          |                                                                                                                                                                                                                             | Kalantari              | ISP |
+| Towards Accurate HDR Imaging with Learning Generator Constraints                                                   | [Neurocomputing-2021](https://www.sciencedirect.com/science/article/pii/S092523122031849X)                                                                                                                                           |                                                                                                                                                                                                                             | Kalantari              | LDR-->HDR-->LDR |
+| Hierarchical Fusion for Practical Ghost-free High Dynamic Range Imaging                                            | [MM-2021](https://dl.acm.org/doi/abs/10.1145/3474085.3475260)                                                                                                                                                                        |                                                                                                                                                                                                                             | Kalantari              | Hierarchical fusion |
+| **Deep HDR Imaging via A Non-Local Network**                                                                       | [TIP-2020](https://ieeexplore.ieee.org/abstract/document/8989959)                                                                                                                                                                    | [NHDRRNet (Keras-implementation)](https://github.com/tuvovan/NHDRRNet),  [NHDRRNet (PyTorch-re-implementation)](https://github.com/Galaxies99/NHDRRNet-pytorch)                                                             | Kalantari              | Non-local |
+| Towards Practical and Efficient High-resolution HDR Deghosting with CNN                                            | [ECCV-2020](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660494.pdf)                                                                                                                                                  |                                                                                                                                                                                                                             | Kalantari              | Efficient |
+| Ghost Removal via Channel Attention in Exposure Fusion                                                             | [CVIU-2020](https://reader.elsevier.com/reader/sd/pii/S1077314220301132?token=988EBE214F2D779B43AFBD9865B305D565601632AE5B46780AB792995116FC17FE7FBFCE6C45ECE689F9F7BB11ACCA83&originRegion=us-east-1&originCreation=20221126071114) |                                                                                                                                                                                                                             | Kalantari              | Non-local |
+| Pyramid inter-attention for high dynamic range imaging                                                             | [Sensors-2020](https://www.mdpi.com/1424-8220/20/18/5102)                                                                                                                                                                            |                                                                                                                                                                                                                             | Kalantari              | Attention |
+| Attention-Mask Dense Merger (Attendense) Deep HDR for Ghost Removal                                                | [ICASSP-2020](http://www.personal.psu.edu/kmm1122/Publications/Attendense.pdf)                                                                                                                                                       |                                                                                                                                                                                                                             | Kalantari              | Attention Mask |
+| Multi-scale Dense Networks for Deep High Dynamic Range Imaging                                                     | [WACV-2019](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658831&tag=1)                                                                                                                                                  |                                                                                                                                                                                                                             | Kalantari              | Multi-scale, DenseUnet |
+| **Attention-guided Network for Ghost-free High Dynamic Range Imaging**                                             | [CVPR-2019](https://arxiv.org/abs/1904.10293)                                                                                                                                                                                        | [AHDRNet](https://github.com/qingsenyangit/AHDRNet)                                                                                                                                                                         | Kalantari              | Channel Attention |
+| Kernel Prediction Network for Detail-Preserving High Dynamic Range Imaging                                         | [APSIPA-ASC-2019](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9023217)                                                                                                                                                  |                                                                                                                                                                                                                             | Kalantari              | Kernal prediction |
+| Deep Multi-Stage Learning for HDR With Large Object Motions                                                        | [ICIP-2019](https://ieeexplore.ieee.org/document/8803582)                                                                                                                                                                            |                                                                                                                                                                                                                             | Kalantari              | Generate virtual exposures |
+| A Fast, Scalable, and Reliable Deghosting Method for Extreme Exposure Fusion                                       | [ICCP-2019](https://ieeexplore.ieee.org/document/8747329)                                                                                                                                                                            | [Deep Deghosting HDR](https://github.com/rajat95/Deep-Deghosting-HDR)                                                                                                                                                       | Prabhakar              | Arbitrary number of inputs |
+| **Deep High Dynamic Range Imaging with Large Foreground Motions**                                                  | [ECCV-2018](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf)                                                                                                              | [DeepHDR](https://github.com/elliottwu/DeepHDR)                                                                                                                                                                             | Kalantari              | U-Net |
+| Deep HDR Reconstruction of Dynamic Scenes                                                                          | [ICIVC 2018](https://ieeexplore.ieee.org/abstract/document/8492856)                                                                                                                                                                  |                                                                                                                                                                                                                             | Kalantari+own          | FlowNet2.0 |
+| **Deep high dynamic range imaging of dynamic scenes**                                                              | [SIGGRAPH-2017](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR.pdf)                                                                                                                                     | [Kalantari (Official MATLAB implementation)](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR_Code_v1.0.zip), [TensorFlow implementation](https://github.com/TH3CHARLie/deep-high-dynamic-range) | Kalantari              | Fisrt deep multi-frame HDRI |
+
+
+
+
+
+## Single-Frame HDRI
+| Title                                                                                | Paper                                             | Code                                                          | Dataset | Key Words |
+|:-------------------------------------------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------------------|:--------|:-|
+| Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [SIGGRAPH 2020](https://arxiv.org/abs/2005.07335) | [HDRCNN](https://github.com/marcelsan/Deep-HdrReconstruction) |         |  |
+
+
+## HDR Video
+| Title                                                                                 | Paper                                                                                          | Code                                                      | Dataset | Key Words |
+|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:----------------------------------------------------------|:--------|:-|
+| HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset | [ICCV-2021](https://arxiv.org/abs/2103.14943)                                                  | [DeepHDRVideo](https://github.com/guanyingc/DeepHDRVideo) |         | Coarse to fine, real world dataset |
+| Deep HDR Video from Sequences with Alternating Exposures                              | [Eurographics=2019](https://people.engr.tamu.edu/nimak/Data/Eurographics19_HDRVideo_LoRes.pdf) |                                                           |         | First DL HDR Video |
+
+
+## Traditional Multi-frame HDR Imaging
+| Title                                                                                | Paper                                                                                                | Code                                            | Dataset | Key Words |
+|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|:--------|:-|
+| Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [TPAMI 2015](https://joonyoung-cv.github.io/assets/paper/15_pami_robust_high.pdf)                    |                                                 |         |  |
+| HDR Deghosting: How to deal with saturation?                                         | [CVPR 2013](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.7215&rep=rep1&type=pdf)     |                                                 |         |  |
+| Robust patch-based HDR reconstruction of dynamic scenes                              | [TOG 2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Code](https://web.ece.ucsb.edu/~psen/hdrvideo) |         |  |
+
+
+
+## HDR Challenges
+| Title                                                                            | Paper                                                                                                                                    | Compeptition                                               | Dataset |
+|:---------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|:-|
+| NTIRE 2022 Challenge on High Dynamic Range Imaging : Methods and Results         | [CVPRW-2022](https://arxiv.org/pdf/2205.12633.pdf#:~:text=This%20manuscript%20focuses%20on%20the,and%20different%20sources%20of%20noise) | [Competition](https://data.vision.ee.ethz.ch/cvl/ntire22/) | NTIRE |
+| NTIRE 2021 Challenge on High Dynamic Range Imaging: Dataset, Methods and Results | [CVPRW-2021](https://arxiv.org/abs/2106.01439)                                                                                           | [Competition](https://data.vision.ee.ethz.ch/cvl/ntire21/) | NTIRE |
+
+
+## HDR Datasets
+| Dataset                                                                           | Amount                                            | Data type                 | GT  | Resolution     | Details |
+|:----------------------------------------------------------------------------------|:--------------------------------------------------|:--------------------------|:----|:---------------|:-|
+| [NTIRE](https://competitions.codalab.org/competitions/28162)                      | 1500 (training) + 60 (validation) + 201 (testing) | Real HDR + synthetic LDR  | Yes | 1900 x 1060    | 29 scenes |
+| [Kalantari _*et al.*_](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)       | 74 (training) + 15 (testing)                      | Real LDR + bracketing HDR | Yes | 1500 x 1000    | Multi-exposure, dynamic scenes |
+| [Sen _*et al.*_](https://web.ece.ucsb.edu/~psen/hdrvideo)                         | 8 (testing only)                                  | Real                      | No  | 1350 x 900     | Multi-exposure, dynamic scenes, collected from HDR videos [1] |
+| [Tursen _*et al.*_](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html) | 16 (testing only)                                 | Real                      | No  | 1024 x 682     | Multi-exposure, indoor and out door scenes |
+| [Prabhakar _*et al.*_](https://val.cds.iisc.ac.in/HDR/ICCP19/)                    | 466 (training) + 116 (testing)                    | Real                      | Yes | 1-4 Megapixels | Dynamic scenes of 3-7 images (Download permission denied) |
+
+
+
+**Reference**
+
+[1] [Wang, L., & Yoon, K. J. (2021). Deep learning for hdr imaging: State-of-the-art and future trends. IEEE Transactions on Pattern Analysis and Machine Intelligence.](https://arxiv.org/pdf/2110.10394.pdf)
+[2] Froehlich, J., Grandinetti, S., Eberhardt, B., Walter, S., Schilling, A., & Brendel, H. (2014, March). Creating cinematic wide gamut HDR-video for the evaluation of tone mapping operators and HDR-displays. In Digital photography X (Vol. 9023, pp. 279-288). SPIE.
+
+
+## Interesting HDR Reading Materials
+* [High Dynamic Range Imaging (second edition)](https://last.hit.bme.hu/download/firtha/video/HDR/Erik%20Reinhard,%20Wolfgang%20Heidrich,%20Paul%20Debevec,%20Sumanta%20Pattanaik,%20Greg%20Ward,%20Karol%20Myszkowski%20High%20Dynamic%20Range%20Imaging,%20Second%20Edition%20Acquisition,%20Display,%20and%20Image-Based%20Lighting%20%202010.pdf)
+
+
+
+## See other useful HDR paperlists
+* https://github.com/vinthony/awesome-deep-hdr
+* https://github.com/ytZhang99/Awesome-HDR
+* https://github.com/lcybuzz/Low-Level-Vision-Paper-Record/blob/master/HDR.md
