@@ -6,6 +6,8 @@ A collection of HDR imaging papers. (Updating)
 
 | Title                                                                                                              | Paper                                                                                                                                                                                                                                | Code                                                                                                                                                                                                                        | Dataset                | Key Words |
 |:-------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------|:-|
+| A Unified HDR Imaging Method with Pixel and Patch Level | [CVPR-2023](https://arxiv.org/pdf/2304.06943.pdf) |  |  |  |
+| HDR Imaging with Spatially Varying Signal-to-Noise Ratios | [CVPR-2023](https://arxiv.org/pdf/2303.17253.pdf) |  |  |  |
 | SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders | [CVPR-2023](https://arxiv.org/pdf/2304.06914.pdf) |  | Kalantari, Hu | Few shot HDR |
 | Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset | [CVPR-2023](https://web.comp.polyu.edu.hk/cslzhang/paper/CVPR23-Joint-HDRDN.pdf) | [Joint-HDRDN](https://github.com/shuaizhengliu/Joint-HDRDN) | Mobile-HDR | New mobile HDR dataset, Transformer-based model |
 | Robust Real-world Image Enhancement Based on Multi-Exposure LDR Images | [WACV-2023](https://openaccess.thecvf.com/content/WACV2023/html/Ren_Robust_Real-World_Image_Enhancement_Based_on_Multi-Exposure_LDR_Images_WACV_2023_paper.html) |  | Kalantari&Various | Cost volumn |
@@ -52,6 +54,21 @@ A collection of HDR imaging papers. (Updating)
 |:-------------------------------------------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------------------|:--------|:-|
 | A Two-stage Deep Network for High Dynamic Range Image Reconstruction | [CVPRW-2021](https://arxiv.org/pdf/2104.09386.pdf) | [code](https://github.com/sharif-apu/twostageHDR_NTIRE21) | NTIRE |  |
 | Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [SIGGRAPH 2020](https://arxiv.org/abs/2005.07335) | [HDRCNN](https://github.com/marcelsan/Deep-HdrReconstruction) |         |  |
+
+
+
+## HDRTV
+
+| Title                                                        | Paper                                             | Code                                           | Dataset | Key Words |
+| :----------------------------------------------------------- | :------------------------------------------------ | :--------------------------------------------- | :------ | :-------- |
+| Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models | [CVPR-2023](https://arxiv.org/pdf/2303.13031.pdf) | [HDRTVDM](https://github.com/AndreGuo/HDRTVDM) |         |           |
+|                                                              |                                                   |                                                |         |           |
+
+
+
+
+
+
 
 ## HDR Video
 
