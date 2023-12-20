@@ -2,18 +2,38 @@
 
 A collection of HDR imaging papers. (Updating)
 
-## Multi-Frame HDRI
+
+
+## Contents
+
+- [Papers](#hdr-papers)
+  - [Multi-Frame HDRI](#multi-frame-hdri)
+  - [Single-Frame HDRI](#single-frame-hdri)
+  - [HDRTV](#hdrtv)
+  - [HDR Video](#hdr-video)
+  - [Tone Mapping](#tone-mapping)
+  - [Traditional HDRI](#traditional-hdri)
+  - [Other](#other)
+- [Challenges](#hdr-challenges)
+- [Datasets](#hdr-datasets)
+  - [HDR Image Datasets](#hdr-image-datasets)
+  - [HDR Video Datasets](#hdr-video-datasets)
+
+## HDR Papers
+
+### Multi-Frame HDRI
 
 | Title                                                        | Paper                                                        | Code                                                         | Dataset                | Key Words                                       |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :--------------------- | :---------------------------------------------- |
-| Efficient HDR Reconstruction From Real-World Raw Images      | [arxiv-2023](https://arxiv.org/pdf/2306.10311.pdf)           |                                                              |                        |                                                 |
-| RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image | [ICCV-2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Zou_RawHDR_High_Dynamic_Range_Image_Reconstruction_from_a_Single_Raw_ICCV_2023_paper.pdf)           |      [RawHDR](https://github.com/jackzou233/RawHDR)                                                        |                        |                                                 |
+| Joint Denoising and Fusion with Short- and Long-exposure Raw Pairs | [arxiv-2023](https://arxiv.org/pdf/2306.10311.pdf)           |                                                              |                        |                                                 |
+| Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [arxiv-2023](https://arxiv.org/pdf/2310.01840.pdf)           | [selfHDR](https://github.com/cszhilu1998/SelfHDR)            |                        | Few shot                                        |
 | A Unified HDR Imaging Method with Pixel and Patch Level      | [CVPR-2023](https://arxiv.org/pdf/2304.06943.pdf)            |                                                              |                        |                                                 |
 | HDR Imaging with Spatially Varying Signal-to-Noise Ratios    | [CVPR-2023](https://arxiv.org/pdf/2303.17253.pdf)            |                                                              |                        |                                                 |
 | SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders | [CVPR-2023](https://arxiv.org/pdf/2304.06914.pdf)            |                                                              | Kalantari, Hu          | Few shot HDR                                    |
 | Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset | [CVPR-2023](https://web.comp.polyu.edu.hk/cslzhang/paper/CVPR23-Joint-HDRDN.pdf) | [Joint-HDRDN](https://github.com/shuaizhengliu/Joint-HDRDN)  | Mobile-HDR             | New mobile HDR dataset, Transformer-based model |
 | Improving Dynamic HDR Imaging with Fusion Transformer        | [AAAI-2023](https://ojs.aaai.org/index.php/AAAI/article/view/25107) |                                                              |                        |                                                 |
 | Robust Real-world Image Enhancement Based on Multi-Exposure LDR Images | [WACV-2023](https://openaccess.thecvf.com/content/WACV2023/html/Ren_Robust_Real-World_Image_Enhancement_Based_on_Multi-Exposure_LDR_Images_WACV_2023_paper.html) |                                                              | Kalantari&Various      | Cost volumn                                     |
+| SJ-HD2R: Selective Joint High Dynamic Range and Denoising Imaging for Dynamic Scenes | [arxiv-2022](https://arxiv.org/pdf/2206.09611.pdf)           |                                                              |                        |                                                 |
 | FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging | [TIP-2022](https://arxiv.org/abs/2201.02625)                 |                                                              | Kalantari              | Arbitrary number of input LDRs, HDR flow        |
 | **Selective TransHDR: Transformer-based selective HDR Imaging using Ghost Region Mask** | [ECCV-2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136770292.pdf) |                                                              | Kalantari              | Ghost Region Mask                               |
 | **Ghost-free High Dynamic Range Imaging with Context-aware Transformer** | [ECCV-2022](https://arxiv.org/pdf/2208.05114)                | [HDR-Transformer](https://github.com/megvii-research/HDR-Transformer) | Kalantari              | Context-Aware Transformer                       |
@@ -51,44 +71,64 @@ A collection of HDR imaging papers. (Updating)
 | Deep HDR Reconstruction of Dynamic Scenes                    | [ICIVC 2018](https://ieeexplore.ieee.org/abstract/document/8492856) |                                                              | Kalantari+own          | FlowNet2.0                                      |
 | **Deep high dynamic range imaging of dynamic scenes**        | [SIGGRAPH-2017](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR.pdf) | [Kalantari (Official MATLAB implementation)](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/PaperData/SIGGRAPH17_HDR_Code_v1.0.zip), [TensorFlow implementation](https://github.com/TH3CHARLie/deep-high-dynamic-range) | Kalantari              | Fisrt deep multi-frame HDRI                     |
 
-## Single-Frame HDRI
+###  Single-Frame HDRI
 
-| Title                                                        | Paper                                              | Code                                                         | Dataset | Key Words |
-| :----------------------------------------------------------- | :------------------------------------------------- | :----------------------------------------------------------- | :------ | :-------- |
-| A Two-stage Deep Network for High Dynamic Range Image Reconstruction | [CVPRW-2021](https://arxiv.org/pdf/2104.09386.pdf) | [code](https://github.com/sharif-apu/twostageHDR_NTIRE21)    | NTIRE   |           |
-| Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [SIGGRAPH 2020](https://arxiv.org/abs/2005.07335)  | [HDRCNN](https://github.com/marcelsan/Deep-HdrReconstruction) |         |           |
+| Title                                                        | Paper                                                        | Code                                                         | Dataset                                        | Key Words |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :--------------------------------------------- | :-------- |
+|                                                              |                                                              |                                                              |                                                |           |
+| RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image | [ICCV-2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Zou_RawHDR_High_Dynamic_Range_Image_Reconstruction_from_a_Single_Raw_ICCV_2023_paper.pdf) |                                                              | [RawHDR](https://github.com/jackzou233/RawHDR) |           |
+| LHDR: HDR Reconstruction for Legacy Content using a Lightweight DNN | [ACCV-2022](https://openaccess.thecvf.com/content/ACCV2022/papers/Guo_LHDR_HDR_Reconstruction_for_Legacy_Content_using_a_Lightweight_DNN_ACCV_2022_paper.pdf) | /                                                            |                                                |           |
+| Ultra-High-Definition Image HDR Reconstruction via Collaborative Bilateral Learning | [ICCV-2021](https://openaccess.thecvf.com/content/ICCV2021/html/Zheng_Ultra-High-Definition_Image_HDR_Reconstruction_via_Collaborative_Bilateral_Learning_ICCV_2021_paper.html) |                                                              |                                                |           |
+| A Two-stage Deep Network for High Dynamic Range Image Reconstruction | [CVPRW-2021](https://arxiv.org/pdf/2104.09386.pdf)           | [code](https://github.com/sharif-apu/twostageHDR_NTIRE21)    | NTIRE                                          |           |
+| Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [SIGGRAPH 2020](https://arxiv.org/abs/2005.07335)            | [HDRCNN](https://github.com/marcelsan/Deep-HdrReconstruction) |                                                |           |
 
-
-
-## HDRTV
+### HDRTV
 
 | Title                                                        | Paper                                             | Code                                           | Dataset | Key Words |
 | :----------------------------------------------------------- | :------------------------------------------------ | :--------------------------------------------- | :------ | :-------- |
 | Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models | [CVPR-2023](https://arxiv.org/pdf/2303.13031.pdf) | [HDRTVDM](https://github.com/AndreGuo/HDRTVDM) |         |           |
 |                                                              |                                                   |                                                |         |           |
 
-
-
-
-
-
-
-## HDR Video
+### HDR Video
 
 | Title                                                        | Paper                                                        | Code                                                        | Dataset                                                      | Key Words                          |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------------------- | :----------------------------------------------------------- | :--------------------------------- |
-| HDR Video Reconstruction with a Large Dynamic Dataset in Raw and sRGB Domains | [arxiv-2023](https://arxiv.org/pdf/2304.04773.pdf)           | /                                                           |                                                              |                                    |
+| HDR Video Reconstruction with a Large Dynamic Dataset in Raw and sRGB Domavidins | [arxiv-2023](https://arxiv.org/pdf/2304.04773.pdf)           | /                                                           |                                                              |                                    |
+| LAN-HDR: Luminance-based Alignment Network for High Dynamic Range Video Reconstruction | [ICCV-2023](https://openaccess.thecvf.com/content/ICCV2023/html/Chung_LAN-HDR_Luminance-based_Alignment_Network_for_High_Dynamic_Range_Video_Reconstruction_ICCV_2023_paper.html) | [LAN-HDR](https://github.com/haesoochung/LAN-HDR)           |                                                              |                                    |
+| Learning Event Guided High Dynamic Range Video Reconstruction | [CVPR-2023](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_Learning_Event_Guided_High_Dynamic_Range_Video_Reconstruction_CVPR_2023_paper.html) | [HDRev](https://github.com/YixinYang-00/HDRev)              |                                                              |                                    |
 | HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset | [ICCV-2021](https://arxiv.org/abs/2103.14943)                | [DeepHDRVideo](https://github.com/guanyingc/DeepHDRVideo)   |                                                              | Coarse to fine, real world dataset |
 | Deep HDR Video from Sequences with Alternating Exposures     | [Eurographics-2019](https://people.engr.tamu.edu/nimak/Data/Eurographics19_HDRVideo_LoRes.pdf) |                                                             |                                                              | First DL HDR Video                 |
 | Creating cinematic wide gamut HDR-video for the evaluation of tone mapping operators and HDR-displays | [Digital photography-2014](https://imago.org/wp-content/uploads/2014/10/images_pdfs_EDUCATION_Cinematic_HDR_Video.pdf) | [Porject](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | [HDM-HDR-2014](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | HDR video data                     |
 
-## Traditional Multi-frame HDR Imaging
+### Tone Mapping
+
+| Title                                                        | Paper                                              | Code                                           | Dataset                                     | Key Words |
+| :----------------------------------------------------------- | :------------------------------------------------- | :--------------------------------------------- | :------------------------------------------ | :-------- |
+| Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning | [TCSVT-2023](https://arxiv.org/pdf/2303.07327.pdf) | [UnCLTMO](https://github.com/cao-cong/UnCLTMO) | [UVTM](https://github.com/cao-cong/UnCLTMO) |           |
+
+### Traditional HDRI
 
 | Title                                                        | Paper                                                        | Code                                            | Dataset | Key Words |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------- | :------ | :-------- |
 | Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss | [TPAMI 2015](https://joonyoung-cv.github.io/assets/paper/15_pami_robust_high.pdf) |                                                 |         |           |
 | HDR Deghosting: How to deal with saturation?                 | [CVPR 2013](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.7215&rep=rep1&type=pdf) |                                                 |         |           |
 | Robust patch-based HDR reconstruction of dynamic scenes      | [TOG 2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Code](https://web.ece.ucsb.edu/~psen/hdrvideo) |         |           |
+
+### Other
+
+| Title                                                        | Paper                                                        | Code                                                         | Dataset | Key Words |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :------ | :-------- |
+| Unsupervised Optical Flow Estimation for Differently Exposed Images in LDR Domain | [TCSVT-2023](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10058569&tag=1) | [LDRFlow](https://github.com/liuziyang123/LDRFlow)           |         |           |
+| Polarization Guided HDR Reconstruction via Pixel-Wise Depolarization | [TIP-2023](https://ieeexplore.ieee.org/document/10061479)    |                                                              |         |           |
+| 1000 FPS HDR Video with a Spike-RGB Hybrid Camera            | [CVPR-2023](https://openaccess.thecvf.com/content/CVPR2023/html/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper.html) |                                                              |         |           |
+| Hybrid High Dynamic Range Imaging fusing Neuromorphic and Conventional Images | [TPAMI-2023](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10036136) | [NeurImg-HDR](https://github.com/hjynwa/NeurImg-HDR)         |         |           |
+| Text2Light: Zero-Shot Text-Driven HDR Panorama Generation    | [TOG-2022](https://dl.acm.org/doi/abs/10.1145/3550454.3555447) | [Text2Light](https://github.com/FrozenBurning/Text2Light)    |         |           |
+| HDR-Plenoxels: Self-Calibrating High Dynamic Range Radiance Fields | [ECCV-2022](https://arxiv.org/abs/2208.06787)                | [HDR-Plenoxels](https://github.com/postech-ami/HDR-Plenoxels) |         |           |
+| How To Cheat With Metrics in Single-Image HDR Reconstruction | [ICCV-2021](https://openaccess.thecvf.com/content/ICCV2021W/LCI/html/Eilertsen_How_To_Cheat_With_Metrics_in_Single-Image_HDR_Reconstruction_ICCVW_2021_paper.html) | /                                                            |         |           |
+| Neuromorphic Camera Guided High Dynamic Range Imaging        | [CVPR-2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_Neuromorphic_Camera_Guided_High_Dynamic_Range_Imaging_CVPR_2020_paper.pdf) |                                                              |         |           |
+| UnModNet: Learning to Unwrap a Modulo Image for High Dynamic Range Imaging | [NIPS-2020](https://proceedings.neurips.cc/paper/2020/hash/1102a326d5f7c9e04fc3c89d0ede88c9-Abstract.html) |                                                              |         |           |
+
+### 
 
 ## HDR Challenges
 
@@ -97,7 +137,11 @@ A collection of HDR imaging papers. (Updating)
 | NTIRE 2022 Challenge on High Dynamic Range Imaging : Methods and Results | [CVPRW-2022](https://arxiv.org/pdf/2205.12633.pdf#:~:text=This%20manuscript%20focuses%20on%20the,and%20different%20sources%20of%20noise) | [Competition](https://data.vision.ee.ethz.ch/cvl/ntire22/) | NTIRE   |
 | NTIRE 2021 Challenge on High Dynamic Range Imaging: Dataset, Methods and Results | [CVPRW-2021](https://arxiv.org/abs/2106.01439)               | [Competition](https://data.vision.ee.ethz.ch/cvl/ntire21/) | NTIRE   |
 
+
+
 ## HDR Datasets
+
+### HDR Image Datasets
 
 | Dataset                                                      | Amount                                            | Data type                 | GT   | Resolution     | Details                                                      |
 | :----------------------------------------------------------- | :------------------------------------------------ | :------------------------ | :--- | :------------- | :----------------------------------------------------------- |
@@ -107,6 +151,10 @@ A collection of HDR imaging papers. (Updating)
 | [Sen *et al.*](https://web.ece.ucsb.edu/~psen/hdrvideo)      | 8 (testing only)                                  | Real                      | No   | 1350 x 900     | Multi-exposure, dynamic scenes, collected from HDR videos [1] |
 | [Tursen *et al.*](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html) | 16 (testing only)                                 | Real                      | No   | 1024 x 682     | Multi-exposure, indoor and out door scenes                   |
 | [Prabhakar *et al.*](https://val.cds.iisc.ac.in/HDR/ICCP19/) | 466 (training) + 116 (testing)                    | Real                      | Yes  | 1-4 Megapixels | Dynamic scenes of 3-7 images (Download permission denied)    |
+
+### HDR Video Datasets
+
+
 
 **Reference**
 
