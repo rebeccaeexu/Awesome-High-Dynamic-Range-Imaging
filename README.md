@@ -1,7 +1,8 @@
 # Paper List | High Dynamic Range Imaging
 
-A collection of HDR imaging papers. (Updating)
+This repository compiles a list of papers related to HDR. (Updating)
 
+Continual improvements are being made to this repository. If you come across any relevant papers that should be included, please don't hesitate to open an issue.
 
 
 ## Contents
@@ -24,7 +25,8 @@ A collection of HDR imaging papers. (Updating)
 ### Multi-Frame HDRI
 
 | Title                                                        | Paper                                                        | Code                                                         | Dataset                                       | Key Words                                       |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- |
+|--------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------|-------------------------------------------------|
+| Generating Content for HDR Deghosting from Frequency View    | [CVPR-2024](https://arxiv.org/pdf/2404.00849)                |                                                              |                                               |                                                 |
 | HDRFlow: Real-Time HDR Video Reconstruction with Large Motions | [CVPR-2024](https://arxiv.org/abs/2403.03447)                | [HDRFlow](https://github.com/OpenImagingLab/HDRFlow)         |                                               |                                                 |
 | Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [ICLR-2024](https://arxiv.org/pdf/2310.01840.pdf)            | [selfHDR](https://github.com/cszhilu1998/SelfHDR)            |                                               | Few shot                                        |
 | Joint Denoising and Fusion with Short- and Long-exposure Raw Pairs | [arxiv-2023](https://arxiv.org/pdf/2306.10311.pdf)           |                                                              |                                               |                                                 |
