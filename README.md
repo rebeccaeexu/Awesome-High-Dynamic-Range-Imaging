@@ -25,7 +25,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
-| UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [cvpr-2025](https://arxiv.org/abs/2501.11515) |     |     |     |
+| UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [CVPR-2025](https://arxiv.org/abs/2501.11515) |     |     |     |
 | SAFNet: Selective Alignment Fusion Network for Efficient HDR Imaging | [ECCV-2024](https://www.arxiv.org/pdf/2407.16308) | [SAFNet](https://github.com/ltkong218/SAFNet) |     |     |
 | PASTA: Towards Flexible and Efficient HDR Imaging Via Progressively Aggregated Spatio-Temporal Alignment | [arxiv-2024](https://arxiv.org/pdf/2403.10376) |     |     |     |
 | Generating Content for HDR Deghosting from Frequency View | [CVPR-2024](https://arxiv.org/pdf/2404.00849) |     |     |     |
