@@ -105,6 +105,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| Exposure Completing for Temporally Consistent Neural High Dynamic Range Video Rendering | [ACMMM-2024](https://arxiv.org/pdf/2407.13309) | [NECHDR](https://github.com/JiahaoCui-HUST/NECHDR) |     |     |
 | HDRFlow: Real-Time HDR Video Reconstruction with Large Motions | [CVPR-2024](https://arxiv.org/abs/2403.03447) | [HDRFlow](https://github.com/OpenImagingLab/HDRFlow) |     |     |
 | Towards Real-World HDR Video Reconstruction: A Large-Scale Benchmark Dataset and A Two-Stage Alignment Network | [CVPR-2024](https://arxiv.org/pdf/2405.00244) | [Real-HDRV](https://github.com/yungsyu99/Real-HDRV) |     |     |
 | Self-Supervised High Dynamic Range Imaging: What Can Be Learned from a Single 8-bit Video? | [TOG-2024](https://dl.acm.org/doi/pdf/10.1145/3648570) |     |     |     |
