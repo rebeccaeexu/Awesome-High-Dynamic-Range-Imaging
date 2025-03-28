@@ -116,6 +116,7 @@ Continual improvements are being made to this repository. If you come across any
 | LAN-HDR: Luminance-based Alignment Network for High Dynamic Range Video Reconstruction | [ICCV-2023](https://openaccess.thecvf.com/content/ICCV2023/html/Chung_LAN-HDR_Luminance-based_Alignment_Network_for_High_Dynamic_Range_Video_Reconstruction_ICCV_2023_paper.html) | [LAN-HDR](https://github.com/haesoochung/LAN-HDR) |     |     |
 | Learning Event Guided High Dynamic Range Video Reconstruction | [CVPR-2023](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_Learning_Event_Guided_High_Dynamic_Range_Video_Reconstruction_CVPR_2023_paper.html) | [HDRev](https://github.com/YixinYang-00/HDRev) |     |     |
 | HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset | [ICCV-2021](https://arxiv.org/abs/2103.14943) | [DeepHDRVideo](https://github.com/guanyingc/DeepHDRVideo) |     | Coarse to fine, real world dataset |
+| Patch-Based High Dynamic Range Video | [SigAisa-13](https://web.ece.ucsb.edu/~psen/Papers/SIGASIA13_HDRVideo_LoRes.pdf) | [Kalantari13](https://web.ece.ucsb.edu/~psen/PaperPages/HDRVideo/) | [Kalantari13](https://web.ece.ucsb.edu/~psen/PaperPages/HDRVideo/) |     |
 | Deep HDR Video from Sequences with Alternating Exposures | [Eurographics-2019](https://people.engr.tamu.edu/nimak/Data/Eurographics19_HDRVideo_LoRes.pdf) |     |     | First DL HDR Video |
 | Creating cinematic wide gamut HDR-video for the evaluation of tone mapping operators and HDR-displays | [Digital photography-2014](https://imago.org/wp-content/uploads/2014/10/images_pdfs_EDUCATION_Cinematic_HDR_Video.pdf) | [Porject](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | [HDM-HDR-2014](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | HDR video data |
 
@@ -163,6 +164,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Dataset | Amount | Data type | GT  | Resolution | Details |
 | --- | --- | --- | --- | --- | --- |
+| [UltraFusion](https://openimaginglab.github.io/UltraFusion/) | 100 |     | Yes |     | real-captured under/over-exposed image pairs (up to 9 stops), DSLR+mobile |
 | [Mobile-HDR](https://github.com/shuaizhengliu/Joint-HDRDN) | 115 dynamic+136 static | Real LDR + bracketing HDR | Yes | 4K  | shot by mobile phones, daytime+nighttime |
 | [NTIRE-HDR](https://competitions.codalab.org/competitions/28162) | 1500 (training) + 60 (validation) + 201 (testing) | Real HDR + synthetic LDR | Yes | 1900 x 1060 | 29 scenes |
 | [Kalantari *et al.*](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/) | 74 (training) + 15 (testing) | Real LDR + bracketing HDR | Yes | 1500 x 1000 | Multi-exposure, dynamic scenes |
@@ -171,6 +173,12 @@ Continual improvements are being made to this repository. If you come across any
 | [Prabhakar *et al.*](https://val.cds.iisc.ac.in/HDR/ICCP19/) | 466 (training) + 116 (testing) | Real | Yes | 1-4 Megapixels | Dynamic scenes of 3-7 images (Download permission denied) |
 
 ### HDR Video Datasets
+
+| Dataset | Published | Amount | Data type | GT  | Resolution | Details |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Real-HDRV](https://github.com/yungsyu99/Real-HDRV) | CVPR 2024 | 500 scenes * (7-10) frames |     | Yes |     |     |
+| [DeepHDRVideo](https://guanyingc.github.io/DeepHDRVideo/) | ICCV 2021 |     |     | Yes | 1500 x 1000 | Raw Res: 6000 x4000, |
+| [Kalantari13](https://web.ece.ucsb.edu/~psen/PaperPages/HDRVideo/) | TOG 2013 |     |     | No  | 1280 x 720 |     |
 
 **Reference**
 
