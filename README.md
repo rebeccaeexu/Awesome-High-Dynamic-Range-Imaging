@@ -25,8 +25,9 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| AFUNet: Cross-Iterative Alignment-Fusion Synergy for HDR Reconstruction via Deep Unfolding Paradigm | [ICCV-2025](https://arxiv.org/pdf/2506.23537) | [AFUNet]() |     |     |
 | From Dynamic to Static: Stepwisely Generate HDR Image for Ghost Removal | [TCSVT-2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10693592) |     |     |     |
-| UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [CVPR-2025](https://arxiv.org/abs/2501.11515) | [UltraFusion](https://github.com/OpenImagingLab/UltraFusion)    |     |     |
+| UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [CVPR-2025](https://arxiv.org/abs/2501.11515) | [UltraFusion](https://github.com/OpenImagingLab/UltraFusion) |     |     |
 | SAFNet: Selective Alignment Fusion Network for Efficient HDR Imaging | [ECCV-2024](https://www.arxiv.org/pdf/2407.16308) | [SAFNet](https://github.com/ltkong218/SAFNet) |     |     |
 | PASTA: Towards Flexible and Efficient HDR Imaging Via Progressively Aggregated Spatio-Temporal Alignment | [arxiv-2024](https://arxiv.org/pdf/2403.10376) |     |     |     |
 | Generating Content for HDR Deghosting from Frequency View | [CVPR-2024](https://arxiv.org/pdf/2404.00849) |     |     |     |
