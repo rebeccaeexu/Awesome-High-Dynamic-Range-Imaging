@@ -83,6 +83,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| LEDiff: Latent Exposure Diffusion for HDR Generation | [CVPR-2025](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_LEDiff_Latent_Exposure_Diffusion_for_HDR_Generation_CVPR_2025_paper.pdf) | [LEDiff]() |     |     |
 | DCDR-UNet: Deformable Convolution Based Detail Restoration via U-shape Network for Single Image HDR Reconstruction | [CVPRW-2024](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Kim_DCDR-UNet_Deformable_Convolution_Based_Detail_Restoration_via_U-shape_Network_for_CVPRW_2024_paper.pdf) |     |     |     |
 | Single-Image HDR Reconstruction by Multi-Exposure Generation | [WACV-2023](https://openaccess.thecvf.com/content/WACV2023/papers/Le_Single-Image_HDR_Reconstruction_by_Multi-Exposure_Generation_WACV_2023_paper.pdf) | [code](https://github.com/VinAIResearch/single_image_hdr) | DrTMO |     |
 | Single image ldr to hdr conversion using conditional diffusion | [ICIP-2023](https://arxiv.org/pdf/2307.02814) |     |     |     |
