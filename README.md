@@ -111,7 +111,7 @@ Continual improvements are being made to this repository. If you come across any
 | Exposure Completing for Temporally Consistent Neural High Dynamic Range Video Rendering | [ACMMM-2024](https://arxiv.org/pdf/2407.13309) | [NECHDR](https://github.com/JiahaoCui-HUST/NECHDR) |     |     |
 | HDRFlow: Real-Time HDR Video Reconstruction with Large Motions | [CVPR-2024](https://arxiv.org/abs/2403.03447) | [HDRFlow](https://github.com/OpenImagingLab/HDRFlow) |     |     |
 | Towards Real-World HDR Video Reconstruction: A Large-Scale Benchmark Dataset and A Two-Stage Alignment Network | [CVPR-2024](https://arxiv.org/pdf/2405.00244) | [Real-HDRV](https://github.com/yungsyu99/Real-HDRV) |     |     |
-| Self-Supervised High Dynamic Range Imaging: What Can Be Learned from a Single 8-bit Video? | [TOG-2024](https://dl.acm.org/doi/pdf/10.1145/3648570) |     |     |     |
+| Self-Supervised High Dynamic Range Imaging: What Can Be Learned from a Single 8-bit Video? | [TOG-2024](https://dl.acm.org/doi/pdf/10.1145/3648570) |  [Zeroshot-HDRV](https://github.com/banterle/Zeroshot-HDRV)   |     |     |
 | HDR Video Reconstruction with a Large Dynamic Dataset in Raw and sRGB Domavidins | [arxiv-2023](https://arxiv.org/pdf/2304.04773.pdf) | /   |     |     |
 | Bidirectional Translation Between UHD-HDR and HD-SDR Videos | [TMM-2023](https://ieeexplore.ieee.org/abstract/document/10025794?casa_token=7DDZ-maF_TsAAAAA:hrzFZojojKx716_gEkJUv9_91i1GmP_-r-OnBnWTet-F11USwricACjJj7PCCe8AOw6fpZp0) | [HDR-BiTNet](https://github.com/mdyao/HDR-BiTNet) |     |     |
 | 1000 FPS HDR Video with a Spike-RGB Hybrid Camera | [CVPR-2023](https://openaccess.thecvf.com/content/CVPR2023/html/Chang_1000_FPS_HDR_Video_With_a_Spike-RGB_Hybrid_Camera_CVPR_2023_paper.html) |     |     |     |
