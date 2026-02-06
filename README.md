@@ -30,6 +30,7 @@ Continual improvements are being made to this repository. If you come across any
 | UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [CVPR-2025](https://arxiv.org/abs/2501.11515) | [UltraFusion](https://github.com/OpenImagingLab/UltraFusion) |     |     |
 | SAFNet: Selective Alignment Fusion Network for Efficient HDR Imaging | [ECCV-2024](https://www.arxiv.org/pdf/2407.16308) | [SAFNet](https://github.com/ltkong218/SAFNet) |     |     |
 | PASTA: Towards Flexible and Efficient HDR Imaging Via Progressively Aggregated Spatio-Temporal Alignment | [arxiv-2024](https://arxiv.org/pdf/2403.10376) |     |     |     |
+| Enhancing Multi-Exposure High Dynamic Range Imaging with Overlapped Codebook for Improved Representation Learning | [ICPR-2024](https://arxiv.org/pdf/2507.01588) | --- | --- | --- |
 | Generating Content for HDR Deghosting from Frequency View | [CVPR-2024](https://arxiv.org/pdf/2404.00849) |     |     |     |
 | Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [ICLR-2024](https://arxiv.org/pdf/2310.01840.pdf) | [selfHDR](https://github.com/cszhilu1998/SelfHDR) |     | Few shot |
 | Joint Denoising and Fusion with Short- and Long-exposure Raw Pairs | [arxiv-2023](https://arxiv.org/pdf/2306.10311.pdf) |     |     |     |
