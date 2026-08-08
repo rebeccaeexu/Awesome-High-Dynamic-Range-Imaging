@@ -25,6 +25,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| F²HDR: Two-Stage HDR Video Reconstruction via Flow Adapter and Physical Motion Modeling | [CVPR-2026](https://openaccess.thecvf.com/content/CVPR2026/html/Yue_F2HDR_Two-Stage_HDR_Video_Reconstruction_via_Flow_Adapter_and_Physical_CVPR_2026_paper.html) | [F2HDR](https://github.com/wei1895/F2HDR) | | Two-stage, Flow adapter, Physical motion modeling |
 | AFUNet: Cross-Iterative Alignment-Fusion Synergy for HDR Reconstruction via Deep Unfolding Paradigm | [ICCV-2025](https://arxiv.org/pdf/2506.23537) | [AFUNet](https://github.com/eezkni/AFUNet) |     |     |
 | From Dynamic to Static: Stepwisely Generate HDR Image for Ghost Removal | [TCSVT-2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10693592) |     |     |     |
 | UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion | [CVPR-2025](https://arxiv.org/abs/2501.11515) | [UltraFusion](https://github.com/OpenImagingLab/UltraFusion) |     |     |
