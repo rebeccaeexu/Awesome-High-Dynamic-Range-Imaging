@@ -85,6 +85,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| LumaGuide: Distribution Shaping for Training-Free HDR Generation in Diffusion Models | [arXiv-2026](https://arxiv.org/abs/2607.26237) | [LumaGuide](https://github.com/shreshthsaini/LumaGuide) |     | Training-free, Energy-based Guidance |
 | LEDiff: Latent Exposure Diffusion for HDR Generation | [CVPR-2025](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_LEDiff_Latent_Exposure_Diffusion_for_HDR_Generation_CVPR_2025_paper.pdf) | [LEDiff]() |     |     |
 | DCDR-UNet: Deformable Convolution Based Detail Restoration via U-shape Network for Single Image HDR Reconstruction | [CVPRW-2024](https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Kim_DCDR-UNet_Deformable_Convolution_Based_Detail_Restoration_via_U-shape_Network_for_CVPRW_2024_paper.pdf) |     |     |     |
 | Single-Image HDR Reconstruction by Multi-Exposure Generation | [WACV-2023](https://openaccess.thecvf.com/content/WACV2023/papers/Le_Single-Image_HDR_Reconstruction_by_Multi-Exposure_Generation_WACV_2023_paper.pdf) | [code](https://github.com/VinAIResearch/single_image_hdr) | DrTMO |     |
@@ -103,6 +104,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| LumaFlux: Lifting 8-Bit Worlds to HDR Reality with Physically-Guided Diffusion Transformers | [arXiv-2026](https://arxiv.org/abs/2604.02787) | [LumaFlux](https://github.com/shreshthsaini/LumaFlux) |     | Diffusion Transformer, ITM |
 | Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models | [CVPR-2023](https://arxiv.org/pdf/2303.13031.pdf) | [HDRTVDM](https://github.com/AndreGuo/HDRTVDM) |     |     |
 |     |     |     |     |     |
 
@@ -110,6 +112,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Title | Paper | Code | Dataset | Key Words |
 | --- | --- | --- | --- | --- |
+| Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos | [CVPR-2026](https://arxiv.org/abs/2603.00938) | [Beyond8Bits](https://github.com/shreshthsaini/Beyond8Bits) | [Beyond8Bits](https://shreshthsaini.github.io/Beyond8Bits/) | Quality Assessment, MLLM |
 | Exposure Completing for Temporally Consistent Neural High Dynamic Range Video Rendering | [ACMMM-2024](https://arxiv.org/pdf/2407.13309) | [NECHDR](https://github.com/JiahaoCui-HUST/NECHDR) |     |     |
 | HDRFlow: Real-Time HDR Video Reconstruction with Large Motions | [CVPR-2024](https://arxiv.org/abs/2403.03447) | [HDRFlow](https://github.com/OpenImagingLab/HDRFlow) |     |     |
 | Towards Real-World HDR Video Reconstruction: A Large-Scale Benchmark Dataset and A Two-Stage Alignment Network | [CVPR-2024](https://arxiv.org/pdf/2405.00244) | [Real-HDRV](https://github.com/yungsyu99/Real-HDRV) |     |     |
@@ -180,6 +183,7 @@ Continual improvements are being made to this repository. If you come across any
 
 | Dataset | Published | Amount | Data type | GT  | Resolution | Details |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Beyond8Bits](https://shreshthsaini.github.io/Beyond8Bits/) | CVPR 2026 | 44K videos from 6.5K sources | Real HDR UGC | No  |     | Crowdsourced subjective study with over 1.5M ratings; MOS labels rather than HDR ground truth |
 | [Real-HDRV](https://github.com/yungsyu99/Real-HDRV) | CVPR 2024 | 500 scenes * (7-10) frames |     | Yes |     |     |
 | [DeepHDRVideo](https://guanyingc.github.io/DeepHDRVideo/) | ICCV 2021 |     |     | Yes | 1500 x 1000 | Raw Res: 6000 x4000, |
 | [Kalantari13](https://web.ece.ucsb.edu/~psen/PaperPages/HDRVideo/) | TOG 2013 |     |     | No  | 1280 x 720 |     |
